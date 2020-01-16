@@ -5,7 +5,7 @@
         <!-- Logo -->
         <li>
           <div class="logo-wrapper waves-light">
-            <a href="{{ url('/') }}"><img src="{{ url('img/logo.png') }}" class="img-fluid flex-center"></a>
+            <a href="{{ url('/') }}"><img src="https://assets-bg.gem.gov.in/resources/images/gem-new-logo-v3.svg" class="img-fluid flex-center"></a>
           </div>
         </li>
         <!--/. Logo -->

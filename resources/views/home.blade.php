@@ -1,7 +1,6 @@
 @extends('layouts.dashboard')
 
 @section('css')
-<link href="{{ url('css/modules/charts.min.css') }}" rel="stylesheet">
 <style type="text/css">
 .cascading-admin-card {
  margin-top: 20px;
