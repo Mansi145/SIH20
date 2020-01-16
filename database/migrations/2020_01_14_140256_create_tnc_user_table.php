@@ -16,7 +16,7 @@ class CreateTncUserTable extends Migration
         Schema::create('tnc_user', function (Blueprint $table) {
             $table->bigInteger('tnc_id')->unsigned();
             $table->bigInteger('user_id')->unsigned();
-            $table->boolean('acces');
+            $table->boolean('access');
         });
     }
 
