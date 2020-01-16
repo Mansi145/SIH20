@@ -157,7 +157,7 @@
 <!-- Footer -->
 
 <!-- JQuery -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="{{ url('js/jquery.js') }}"></script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="{{ url('js/popper.min.js') }}"></script>
 <!-- Bootstrap core JavaScript -->

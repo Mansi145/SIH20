@@ -15,6 +15,8 @@ class UsersTableSeeder extends Seeder
             'name' => 'Admin',
             'email' => 'admin@gem.gov.in',
             'password' => Hash::make('password'),
+            'created_at' => date('Y-m-d H:i:s'),
+            'updated_at' => date('Y-m-d H:i:s'),
             'is_admin' => 1,
         ]);
     }
